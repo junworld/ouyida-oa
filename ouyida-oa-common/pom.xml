@@ -11,24 +11,5 @@
     <artifactId>ouyida-oa-common</artifactId>
     <name>ouyida-oa-common</name>
     <packaging>jar</packaging>
-    <build>
-        <finalName>pop-afs-vender-web.jar</finalName>
-        <resources>
-            <resource>
-                <directory>src/main/resources</directory>
-                <filtering>true</filtering>
-            </resource>
-        </resources>
-        <plugins>
-            <plugin>
-                <groupId>org.apache.maven.plugins</groupId>
-                <artifactId>maven-war-plugin</artifactId>
-                <version>2.1-beta-1</version>
-                <configuration>
-                    <archiveClasses>true</archiveClasses>
-                </configuration>
-            </plugin>
-        </plugins>
-    </build>
 
 </project>
